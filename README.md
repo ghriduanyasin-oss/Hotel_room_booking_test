@@ -8,7 +8,7 @@ Built with ASP.NET Core 8, Entity Framework Core , and Swashbuckle for live docu
 1. Clone the repository  
 ```bash
 git clone https://github.com/ghriduanyasin-oss/Hotel_room_booking_test
-cd HotelRoomBooking
+cd Hotel_Room_Booking
 
 2. Restore & run
 dotnet restore
