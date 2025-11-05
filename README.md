@@ -11,17 +11,20 @@ git clone https://github.com/ghriduanyasin-oss/Hotel_room_booking_test
 cd HotelRoomBooking
 
 2. Restore & run
+```bash
 dotnet restore
 dotnet run --project src/HotelRoomBooking.Api
 
 3. Open Swagger UI
+```bash
 http://localhost:5000/swagger
 
 4. Test the endpoints
+```bash
 GET  /api/rooms     
 POST /api/bookings  
 GET  /api/bookings
-  
+
 Sample POST body
 
 {
@@ -32,6 +35,7 @@ Sample POST body
 }
 
 5. Design decisions
+```bash
 Clean Architecture folders
 – Domain - pure entities & interfaces
 – Infrastructure - EF Core DbContext & repositories
