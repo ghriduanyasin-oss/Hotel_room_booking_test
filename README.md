@@ -15,7 +15,7 @@ dotnet restore
 dotnet run --project src/HotelRoomBooking.Api
 
 3. Open Swagger UI
-http://localhost:5000/swagger
+http://localhost:5189/swagger
 
 4. Test the endpoints
 GET  /api/rooms     
